@@ -22,7 +22,7 @@ copyright: false
 
 ## 第十章 机械振动和电磁振荡
 
-### 10-1 谐振动
+### 10-1 谐振动*
 
 #### 弹簧振子的谐振动
 
@@ -44,7 +44,7 @@ copyright: false
 
 ![image-20230616221036797](https://media.opennet.top/i/2023/06/16/648c6d5d2216b.png)
 
-#### 旋转矢量法
+#### 旋转矢量法（*）
 
 ![image-20230616221142726](https://media.opennet.top/i/2023/06/16/648c6d9f23681.png)
 
@@ -70,7 +70,7 @@ copyright: false
 
 ![IMG_1080](https://media.opennet.top/i/2023/06/18/648ef8387b9bb.png)
 
-### 10-5 一维谐振动的合成
+### 10-5 一维谐振动的合成*
 
 #### 同频率的合成
 
@@ -100,7 +100,7 @@ copyright: false
 
 ![image-20230618204238900](https://media.opennet.top/i/2023/06/18/648efbbecd187.png)
 
-### 11-2 平面简谐波的波函数
+### 11-2 平面简谐波的波函数*
 
 #### 波函数 物理意义 表示形式
 
@@ -150,7 +150,7 @@ copyright: false
 
 ![image-20230618210515738](https://media.opennet.top/i/2023/06/18/648f010bee181.png)
 
-### 11-8 波的叠加原理 干涉 驻波
+### 11-8 波的叠加原理 干涉 驻波*
 
 #### 波的叠加 干涉
 
