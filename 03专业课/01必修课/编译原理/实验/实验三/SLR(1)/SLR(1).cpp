@@ -1,5 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS  1
-#include <iomanip>
+﻿#include <iomanip>
 #include <iostream>
 #include <stack>
 #include <string>
