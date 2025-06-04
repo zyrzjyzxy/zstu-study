@@ -43,6 +43,8 @@ main 分支为项目主分支，dev 分支为建议 Pull request 分支，merge 
 
 [0.4.0](https://github.com/chen2438/zstu-study/releases/tag/0.4.0) 存档已释出.
 
+[0.5.0](https://github.com/chen2438/zstu-study/releases/tag/0.5.0) 存档已释出.
+
 ### 宇宙安全声明
 
 此项目旨在为~~计算机类~~学习者提供免费学习资源。我们努力确保这些资源的准确性和完整性，但不能保证其绝对准确性和可靠性。因此，我们不对使用这些资源所产生的任何直接或间接损失、损害或费用承担任何责任。
