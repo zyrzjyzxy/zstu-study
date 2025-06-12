@@ -1,0 +1,335 @@
+(gestures) D:\Project\hagrid>python run.py -c train -p configs\MobileNetV3_large.yaml
+C:\Users\etern\.conda\envs\gestures\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\etern\.conda\envs\gestures\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Prepare test dataset: 100%|██████████████████████| 7/7 [00:02<00:00,  3.04it/s]
+Prepare train dataset: 100%|█████████████████████| 7/7 [00:08<00:00,  1.23s/it]
+Prepare val dataset: 100%|███████████████████████| 7/7 [00:00<00:00,  7.61it/s]
+Time: 2025-05-21 02:39:41 Train ---- Epoch [0/100], Iteration [100/1259]: Loss: 2.0189995765686035
+Time: 2025-05-21 02:40:11 Train ---- Epoch [0/100], Iteration [200/1259]: Loss: 1.987520694732666
+Time: 2025-05-21 02:40:40 Train ---- Epoch [0/100], Iteration [300/1259]: Loss: 1.9727301597595215
+Time: 2025-05-21 02:41:09 Train ---- Epoch [0/100], Iteration [400/1259]: Loss: 1.9668030142784119
+Time: 2025-05-21 02:41:40 Train ---- Epoch [0/100], Iteration [500/1259]: Loss: 1.967289185523987
+Time: 2025-05-21 02:42:09 Train ---- Epoch [0/100], Iteration [600/1259]: Loss: 1.9609289566675823
+Time: 2025-05-21 02:42:38 Train ---- Epoch [0/100], Iteration [700/1259]: Loss: 1.9591239520481654
+Time: 2025-05-21 02:43:08 Train ---- Epoch [0/100], Iteration [800/1259]: Loss: 1.9554568827152252
+Time: 2025-05-21 02:43:42 Train ---- Epoch [0/100], Iteration [900/1259]: Loss: 1.9581957525677152
+Time: 2025-05-21 02:44:20 Train ---- Epoch [0/100], Iteration [1000/1259]: Loss: 1.9538806676864624
+Time: 2025-05-21 02:44:58 Train ---- Epoch [0/100], Iteration [1100/1259]: Loss: 1.9500674226067283
+Time: 2025-05-21 02:45:37 Train ---- Epoch [0/100], Iteration [1200/1259]: Loss: 1.9455348352591197
+Time: 2025-05-21 02:45:59 Train ---- Epoch [0/100], Iteration [1259/1259]: Loss: 1.9431775166438177
+Time: 2025-05-21 02:47:05 Eval ---- Epoch [0/100], Iteration [100/165]:
+Time: 2025-05-21 02:47:29 Eval ---- Epoch [0/100], Iteration [165/165]: F1Score: 0.3125
+Save model MobileNetV3_large || F1Score:0.31
+Time: 2025-05-21 02:48:40 Train ---- Epoch [1/100], Iteration [100/1259]: Loss: 1.8717292547225952
+Time: 2025-05-21 02:49:09 Train ---- Epoch [1/100], Iteration [200/1259]: Loss: 1.8167634010314941
+Time: 2025-05-21 02:49:39 Train ---- Epoch [1/100], Iteration [300/1259]: Loss: 1.7722158829371135
+Time: 2025-05-21 02:50:09 Train ---- Epoch [1/100], Iteration [400/1259]: Loss: 1.7455740869045258
+Time: 2025-05-21 02:50:39 Train ---- Epoch [1/100], Iteration [500/1259]: Loss: 1.7459749221801757
+Time: 2025-05-21 02:51:09 Train ---- Epoch [1/100], Iteration [600/1259]: Loss: 1.7257921894391377
+Time: 2025-05-21 02:51:39 Train ---- Epoch [1/100], Iteration [700/1259]: Loss: 1.700374722480774
+Time: 2025-05-21 02:52:09 Train ---- Epoch [1/100], Iteration [800/1259]: Loss: 1.6713046580553055
+Time: 2025-05-21 02:52:38 Train ---- Epoch [1/100], Iteration [900/1259]: Loss: 1.6409886942969427
+Time: 2025-05-21 02:53:07 Train ---- Epoch [1/100], Iteration [1000/1259]: Loss: 1.5955230474472046
+Time: 2025-05-21 02:53:37 Train ---- Epoch [1/100], Iteration [1100/1259]: Loss: 1.5536705363880505
+Time: 2025-05-21 02:54:06 Train ---- Epoch [1/100], Iteration [1200/1259]: Loss: 1.5036929994821548
+Time: 2025-05-21 02:54:23 Train ---- Epoch [1/100], Iteration [1259/1259]: Loss: 1.4604430519617522
+Time: 2025-05-21 02:55:13 Eval ---- Epoch [1/100], Iteration [100/165]:
+Time: 2025-05-21 02:55:27 Eval ---- Epoch [1/100], Iteration [165/165]: F1Score: 0.73828125
+Save model MobileNetV3_large || F1Score:0.74
+Time: 2025-05-21 02:56:38 Train ---- Epoch [2/100], Iteration [100/1259]: Loss: 0.9562550783157349
+Time: 2025-05-21 02:57:08 Train ---- Epoch [2/100], Iteration [200/1259]: Loss: 0.8991464376449585
+Time: 2025-05-21 02:57:37 Train ---- Epoch [2/100], Iteration [300/1259]: Loss: 0.8643472592035929
+Time: 2025-05-21 02:58:06 Train ---- Epoch [2/100], Iteration [400/1259]: Loss: 0.8558851331472397
+Time: 2025-05-21 02:58:37 Train ---- Epoch [2/100], Iteration [500/1259]: Loss: 0.8699355244636535
+Time: 2025-05-21 02:59:08 Train ---- Epoch [2/100], Iteration [600/1259]: Loss: 0.8541989326477051
+Time: 2025-05-21 02:59:37 Train ---- Epoch [2/100], Iteration [700/1259]: Loss: 0.8335053494998387
+Time: 2025-05-21 03:00:06 Train ---- Epoch [2/100], Iteration [800/1259]: Loss: 0.8262292891740799
+Time: 2025-05-21 03:00:35 Train ---- Epoch [2/100], Iteration [900/1259]: Loss: 0.7951759497324625
+Time: 2025-05-21 03:01:06 Train ---- Epoch [2/100], Iteration [1000/1259]: Loss: 0.772064071893692
+Time: 2025-05-21 03:01:36 Train ---- Epoch [2/100], Iteration [1100/1259]: Loss: 0.7449507090178403
+Time: 2025-05-21 03:02:07 Train ---- Epoch [2/100], Iteration [1200/1259]: Loss: 0.7236401562889417
+Time: 2025-05-21 03:02:24 Train ---- Epoch [2/100], Iteration [1259/1259]: Loss: 0.7064387591985556
+Time: 2025-05-21 03:03:15 Eval ---- Epoch [2/100], Iteration [100/165]:
+Time: 2025-05-21 03:03:29 Eval ---- Epoch [2/100], Iteration [165/165]: F1Score: 0.79296875
+Save model MobileNetV3_large || F1Score:0.79
+Time: 2025-05-21 03:04:41 Train ---- Epoch [3/100], Iteration [100/1259]: Loss: 0.6382675170898438
+Time: 2025-05-21 03:05:10 Train ---- Epoch [3/100], Iteration [200/1259]: Loss: 0.5806471109390259
+Time: 2025-05-21 03:05:41 Train ---- Epoch [3/100], Iteration [300/1259]: Loss: 0.5745859742164612
+Time: 2025-05-21 03:06:10 Train ---- Epoch [3/100], Iteration [400/1259]: Loss: 0.5706608444452286
+Time: 2025-05-21 03:06:40 Train ---- Epoch [3/100], Iteration [500/1259]: Loss: 0.5543662309646606
+Time: 2025-05-21 03:07:10 Train ---- Epoch [3/100], Iteration [600/1259]: Loss: 0.5284817020098368
+Time: 2025-05-21 03:07:41 Train ---- Epoch [3/100], Iteration [700/1259]: Loss: 0.5132944158145359
+Time: 2025-05-21 03:08:10 Train ---- Epoch [3/100], Iteration [800/1259]: Loss: 0.49332698807120323
+Time: 2025-05-21 03:08:40 Train ---- Epoch [3/100], Iteration [900/1259]: Loss: 0.493770119216707
+Time: 2025-05-21 03:09:09 Train ---- Epoch [3/100], Iteration [1000/1259]: Loss: 0.4763715773820877
+Time: 2025-05-21 03:09:39 Train ---- Epoch [3/100], Iteration [1100/1259]: Loss: 0.46938308802517975
+Time: 2025-05-21 03:10:08 Train ---- Epoch [3/100], Iteration [1200/1259]: Loss: 0.4690900767842929
+Time: 2025-05-21 03:10:26 Train ---- Epoch [3/100], Iteration [1259/1259]: Loss: 0.46514157148507923
+Time: 2025-05-21 03:11:17 Eval ---- Epoch [3/100], Iteration [100/165]:
+Time: 2025-05-21 03:11:30 Eval ---- Epoch [3/100], Iteration [165/165]: F1Score: 0.9140625
+Save model MobileNetV3_large || F1Score:0.91
+Time: 2025-05-21 03:12:41 Train ---- Epoch [4/100], Iteration [100/1259]: Loss: 0.38828620314598083
+Time: 2025-05-21 03:13:11 Train ---- Epoch [4/100], Iteration [200/1259]: Loss: 0.4614032357931137
+Time: 2025-05-21 03:13:41 Train ---- Epoch [4/100], Iteration [300/1259]: Loss: 0.42651087045669556
+Time: 2025-05-21 03:14:12 Train ---- Epoch [4/100], Iteration [400/1259]: Loss: 0.4283823221921921
+Time: 2025-05-21 03:14:42 Train ---- Epoch [4/100], Iteration [500/1259]: Loss: 0.4138877511024475
+Time: 2025-05-21 03:15:12 Train ---- Epoch [4/100], Iteration [600/1259]: Loss: 0.40404505530993146
+Time: 2025-05-21 03:15:42 Train ---- Epoch [4/100], Iteration [700/1259]: Loss: 0.407292331968035
+Time: 2025-05-21 03:16:12 Train ---- Epoch [4/100], Iteration [800/1259]: Loss: 0.4011622220277786
+Time: 2025-05-21 03:16:42 Train ---- Epoch [4/100], Iteration [900/1259]: Loss: 0.3992049793402354
+Time: 2025-05-21 03:17:12 Train ---- Epoch [4/100], Iteration [1000/1259]: Loss: 0.391131392121315
+Time: 2025-05-21 03:17:42 Train ---- Epoch [4/100], Iteration [1100/1259]: Loss: 0.3944738778201016
+Time: 2025-05-21 03:18:12 Train ---- Epoch [4/100], Iteration [1200/1259]: Loss: 0.383954219520092
+Time: 2025-05-21 03:18:30 Train ---- Epoch [4/100], Iteration [1259/1259]: Loss: 0.3734290771759473
+Time: 2025-05-21 03:19:20 Eval ---- Epoch [4/100], Iteration [100/165]:
+Time: 2025-05-21 03:19:34 Eval ---- Epoch [4/100], Iteration [165/165]: F1Score: 0.8828125
+Time: 2025-05-21 03:20:44 Train ---- Epoch [5/100], Iteration [100/1259]: Loss: 0.421906054019928
+Time: 2025-05-21 03:21:14 Train ---- Epoch [5/100], Iteration [200/1259]: Loss: 0.3858722597360611
+Time: 2025-05-21 03:21:44 Train ---- Epoch [5/100], Iteration [300/1259]: Loss: 0.350775013367335
+Time: 2025-05-21 03:22:13 Train ---- Epoch [5/100], Iteration [400/1259]: Loss: 0.3420529142022133
+Time: 2025-05-21 03:22:43 Train ---- Epoch [5/100], Iteration [500/1259]: Loss: 0.3295631051063538
+Time: 2025-05-21 03:23:13 Train ---- Epoch [5/100], Iteration [600/1259]: Loss: 0.3296194275220235
+Time: 2025-05-21 03:23:44 Train ---- Epoch [5/100], Iteration [700/1259]: Loss: 0.32364499143191744
+Time: 2025-05-21 03:24:13 Train ---- Epoch [5/100], Iteration [800/1259]: Loss: 0.31949582695961
+Time: 2025-05-21 03:24:43 Train ---- Epoch [5/100], Iteration [900/1259]: Loss: 0.3416307701004876
+Time: 2025-05-21 03:25:13 Train ---- Epoch [5/100], Iteration [1000/1259]: Loss: 0.33822703659534453
+Time: 2025-05-21 03:25:43 Train ---- Epoch [5/100], Iteration [1100/1259]: Loss: 0.33798172257163306
+Time: 2025-05-21 03:26:12 Train ---- Epoch [5/100], Iteration [1200/1259]: Loss: 0.3352936531106631
+Time: 2025-05-21 03:26:30 Train ---- Epoch [5/100], Iteration [1259/1259]: Loss: 0.33833971390357387
+Time: 2025-05-21 03:27:21 Eval ---- Epoch [5/100], Iteration [100/165]:
+Time: 2025-05-21 03:27:36 Eval ---- Epoch [5/100], Iteration [165/165]: F1Score: 0.859375
+Time: 2025-05-21 03:28:49 Train ---- Epoch [6/100], Iteration [100/1259]: Loss: 0.32107630372047424
+Time: 2025-05-21 03:29:18 Train ---- Epoch [6/100], Iteration [200/1259]: Loss: 0.267645962536335
+Time: 2025-05-21 03:29:47 Train ---- Epoch [6/100], Iteration [300/1259]: Loss: 0.26228592296441394
+Time: 2025-05-21 03:30:17 Train ---- Epoch [6/100], Iteration [400/1259]: Loss: 0.24957794323563576
+Time: 2025-05-21 03:30:45 Train ---- Epoch [6/100], Iteration [500/1259]: Loss: 0.2776311129331589
+Time: 2025-05-21 03:31:16 Train ---- Epoch [6/100], Iteration [600/1259]: Loss: 0.2976485565304756
+Time: 2025-05-21 03:31:46 Train ---- Epoch [6/100], Iteration [700/1259]: Loss: 0.28308842863355366
+Time: 2025-05-21 03:32:17 Train ---- Epoch [6/100], Iteration [800/1259]: Loss: 0.28518808633089066
+Time: 2025-05-21 03:32:47 Train ---- Epoch [6/100], Iteration [900/1259]: Loss: 0.2864021526442634
+Time: 2025-05-21 03:33:17 Train ---- Epoch [6/100], Iteration [1000/1259]: Loss: 0.2846141219139099
+Time: 2025-05-21 03:33:48 Train ---- Epoch [6/100], Iteration [1100/1259]: Loss: 0.29694886911999097
+Time: 2025-05-21 03:34:18 Train ---- Epoch [6/100], Iteration [1200/1259]: Loss: 0.29946943124135333
+Time: 2025-05-21 03:34:36 Train ---- Epoch [6/100], Iteration [1259/1259]: Loss: 0.2931497647212102
+Time: 2025-05-21 03:35:27 Eval ---- Epoch [6/100], Iteration [100/165]:
+Time: 2025-05-21 03:35:41 Eval ---- Epoch [6/100], Iteration [165/165]: F1Score: 0.89453125
+Time: 2025-05-21 03:36:51 Train ---- Epoch [7/100], Iteration [100/1259]: Loss: 0.2138342559337616
+Time: 2025-05-21 03:38:50 Train ---- Epoch [7/100], Iteration [500/1259]: Loss: 0.22228850722312926
+Time: 2025-05-21 03:39:20 Train ---- Epoch [7/100], Iteration [600/1259]: Loss: 0.21892516066630682
+Time: 2025-05-21 03:38:50 Train ---- Epoch [7/100], Iteration [500/1259]: Loss: 0.22228850722312926 
+Time: 2025-05-21 03:39:20 Train ---- Epoch [7/100], Iteration [600/1259]: Loss: 0.21892516066630682 
+Time: 2025-05-21 03:39:49 Train ---- Epoch [7/100], Iteration [700/1259]: Loss: 0.21560397744178772 
+Time: 2025-05-21 03:40:19 Train ---- Epoch [7/100], Iteration [800/1259]: Loss: 0.24350062012672424TTime: 2025-05-21 03:38:50 Train ---- Epoch [7/100], Iteration [500/1259]: Loss: 0.22228850722312926 
+Time: 2025-05-21 03:39:20 Train ---- Epoch [7/100], Iteration [600/1259]: Loss: 0.21892516066630682 
+Time: 2025-05-21 03:39:49 Train ---- Epoch [7/100], Iteration [700/1259]: Loss: 0.21560397744178772 
+Time: 2025-05-21 03:40:19 Train ---- Epoch [7/100], Iteration [800/1259]: Loss: 0.24350062012672424 
+Time: 2025-05-21 03:40:48 Train ---- Epoch [7/100], Iteration [900/1259]: Loss: 0.24150377180841234 
+Time: 2025-05-21 03:41:18 Train ---- Epoch [7/100], Iteration [1000/1259]: Loss: 0.24538713693618774
+Time: 2025-05-21 03:41:49 Train ---- Epoch [7/100], Iteration [1100/1259]: Loss: 0.23621948469768872
+Time: 2025-05-21 03:42:18 Train ---- Epoch [7/100], Iteration [1200/1259]: Loss: 0.2339825058976809 
+Time: 2025-05-21 03:42:36 Train ---- Epoch [7/100], Iteration [1259/1259]: Loss: 0.23400376622493452
+Time: 2025-05-21 03:43:29 Eval ---- Epoch [7/100], Iteration [100/165]:
+Time: 2025-05-21 03:43:43 Eval ---- Epoch [7/100], Iteration [165/165]: F1Score: 0.96875
+Save model MobileNetV3_large || F1Score:0.97
+Time: 2025-05-21 03:44:54 Train ---- Epoch [8/100], Iteration [100/1259]: Loss: 0.2683871388435364
+Time: 2025-05-21 03:45:24 Train ---- Epoch [8/100], Iteration [200/1259]: Loss: 0.2130366638302803
+Time: 2025-05-21 03:45:55 Train ---- Epoch [8/100], Iteration [300/1259]: Loss: 0.19544194638729095
+Time: 2025-05-21 03:46:25 Train ---- Epoch [8/100], Iteration [400/1259]: Loss: 0.19379276409745216
+Time: 2025-05-21 03:46:55 Train ---- Epoch [8/100], Iteration [500/1259]: Loss: 0.1811317175626755
+Time: 2025-05-21 03:47:25 Train ---- Epoch [8/100], Iteration [600/1259]: Loss: 0.18294682105382284
+Time: 2025-05-21 03:47:55 Train ---- Epoch [8/100], Iteration [700/1259]: Loss: 0.20173928567341395
+Time: 2025-05-21 03:48:25 Train ---- Epoch [8/100], Iteration [800/1259]: Loss: 0.21222655847668648
+Time: 2025-05-21 03:48:55 Train ---- Epoch [8/100], Iteration [900/1259]: Loss: 0.21743748585383096
+Time: 2025-05-21 03:49:26 Train ---- Epoch [8/100], Iteration [1000/1259]: Loss: 0.2116761863231659
+Time: 2025-05-21 03:49:56 Train ---- Epoch [8/100], Iteration [1100/1259]: Loss: 0.2059916596521031
+Time: 2025-05-21 03:50:26 Train ---- Epoch [8/100], Iteration [1200/1259]: Loss: 0.20648716514309248
+Time: 2025-05-21 03:50:43 Train ---- Epoch [8/100], Iteration [1259/1259]: Loss: 0.21399031579494476
+Time: 2025-05-21 03:51:33 Eval ---- Epoch [8/100], Iteration [100/165]:
+Time: 2025-05-21 03:51:47 Eval ---- Epoch [8/100], Iteration [165/165]: F1Score: 0.90234375
+Time: 2025-05-21 03:52:58 Train ---- Epoch [9/100], Iteration [100/1259]: Loss: 0.16408516466617584
+Time: 2025-05-21 03:53:27 Train ---- Epoch [9/100], Iteration [200/1259]: Loss: 0.17931020259857178
+Time: 2025-05-21 03:53:58 Train ---- Epoch [9/100], Iteration [300/1259]: Loss: 0.19646433492501578
+Time: 2025-05-21 03:54:27 Train ---- Epoch [9/100], Iteration [400/1259]: Loss: 0.22505637630820274
+0], Iteration [1000/1259]: Loss: 0.205258034914732
+Time: 2025-05-21 03:57:54 Train ---- Epoch [9/100], Iteration [1100/1259]: Loss: 0.21771497279405594
+Time: 2025-05-21 03:58:24 Train ---- Epoch [9/100], Iteration [1200/1259]: Loss: 0.21259115201731524
+Time: 2025-05-21 03:58:41 Train ---- Epoch [9/100], Iteration [1259/1259]: Loss: 0.21782110115656486
+Time: 2025-05-21 03:59:34 Eval ---- Epoch [9/100], Iteration [100/165]:
+Time: 2025-05-21 03:59:48 Eval ---- Epoch [9/100], Iteration [165/165]: F1Score: 0.94921875
+Time: 2025-05-21 04:01:00 Train ---- Epoch [10/100], Iteration [100/1259]: Loss: 0.20242178440093994
+Time: 2025-05-21 04:01:30 Train ---- Epoch [10/100], Iteration [200/1259]: Loss: 0.20264004915952682Time: 2025-05-21 04:02:00 Train ---- Epoch [10/100], Iteration [300/1259]: Loss: 0.19149171312650046Time: 2025-05-21 04:02:31 Train ---- Epoch [10/100], Iteration [400/1259]: Loss: 0.20083735138177872Time: 2025-05-21 04:03:01 Train ---- Epoch [10/100], Iteration [500/1259]: Loss: 0.18929632306098937Time: 2025-05-21 04:03:31 Train ---- Epoch [10/100], Iteration [600/1259]: Loss: 0.19626611719528833Time: 2025-05-21 04:04:00 Train ---- Epoch [10/100], Iteration [700/1259]: Loss: 0.18755147925445012Time: 2025-05-21 04:04:31 Train ---- Epoch [10/100], Iteration [800/1259]: Loss: 0.1855678055435419
+Time: 2025-05-21 04:05:01 Train ---- Epoch [10/100], Iteration [900/1259]: Loss: 0.19119061860773298Time: 2025-05-21 04:05:31 Train ---- Epoch [10/100], Iteration [1000/1259]: Loss: 0.19209128320217134
+Time: 2025-05-21 04:06:00 Train ---- Epoch [10/100], Iteration [1100/1259]: Loss: 0.19554187221960587
+Time: 2025-05-21 04:06:30 Train ---- Epoch [10/100], Iteration [1200/1259]: Loss: 0.199839036911726
+Time: 2025-05-21 04:06:48 Train ---- Epoch [10/100], Iteration [1259/1259]: Loss: 0.19609954150823447
+Time: 2025-05-21 04:07:38 Eval ---- Epoch [10/100], Iteration [100/165]:
+Time: 2025-05-21 04:07:52 Eval ---- Epoch [10/100], Iteration [165/165]: F1Score: 0.95703125
+Time: 2025-05-21 04:09:03 Train ---- Epoch [11/100], Iteration [100/1259]: Loss: 0.12690609693527222
+Time: 2025-05-21 04:09:32 Train ---- Epoch [11/100], Iteration [200/1259]: Loss: 0.1303834468126297
+Time: 2025-05-21 04:10:02 Train ---- Epoch [11/100], Iteration [300/1259]: Loss: 0.1436366339524587
+Time: 2025-05-21 04:10:32 Train ---- Epoch [11/100], Iteration [400/1259]: Loss: 0.18347979336977005
+Time: 2025-05-21 04:11:01 Train ---- Epoch [11/100], Iteration [500/1259]: Loss: 0.17940524518489837
+Time: 2025-05-21 04:11:31 Train ---- Epoch [11/100], Iteration [600/1259]: Loss: 0.1796835089723269
+Time: 2025-05-21 04:12:02 Train ---- Epoch [11/100], Iteration [700/1259]: Loss: 0.17947472419057572
+Time: 2025-05-21 04:12:32 Train ---- Epoch [11/100], Iteration [800/1259]: Loss: 0.18165862001478672
+Time: 2025-05-21 04:13:02 Train ---- Epoch [11/100], Iteration [900/1259]: Loss: 0.17206640872690412
+Time: 2025-05-21 04:13:32 Train ---- Epoch [11/100], Iteration [1000/1259]: Loss: 0.17073336541652678
+Time: 2025-05-21 04:14:03 Train ---- Epoch [11/100], Iteration [1100/1259]: Loss: 0.17067958414554596
+Time: 2025-05-21 04:14:34 Train ---- Epoch [11/100], Iteration [1200/1259]: Loss: 0.17511191591620445
+Time: 2025-05-21 04:14:52 Train ---- Epoch [11/100], Iteration [1259/1259]: Loss: 0.17911972220127398
+Time: 2025-05-21 04:15:43 Eval ---- Epoch [11/100], Iteration [100/165]:
+Time: 2025-05-21 04:15:57 Eval ---- Epoch [11/100], Iteration [165/165]: F1Score: 0.98046875
+Save model MobileNetV3_large || F1Score:0.98
+Time: 2025-05-21 04:17:08 Train ---- Epoch [12/100], Iteration [100/1259]: Loss: 0.2029094696044922
+Time: 2025-05-21 04:17:38 Train ---- Epoch [12/100], Iteration [200/1259]: Loss: 0.21093734353780746
+Time: 2025-05-21 04:18:07 Train ---- Epoch [12/100], Iteration [300/1259]: Loss: 0.18753769993782043
+Time: 2025-05-21 04:18:38 Train ---- Epoch [12/100], Iteration [400/1259]: Loss: 0.19622059911489487
+Time: 2025-05-21 04:19:08 Train ---- Epoch [12/100], Iteration [500/1259]: Loss: 0.19003020524978637
+Time: 2025-05-21 04:19:38 Train ---- Epoch [12/100], Iteration [600/1259]: Loss: 0.21122594674428305
+Time: 2025-05-21 04:20:08 Train ---- Epoch [12/100], Iteration [700/1259]: Loss: 0.21054815820285253
+Time: 2025-05-21 04:20:39 Train ---- Epoch [12/100], Iteration [800/1259]: Loss: 0.21092259138822556
+Time: 2025-05-21 04:21:09 Train ---- Epoch [12/100], Iteration [900/1259]: Loss: 0.20909776124689314
+Time: 2025-05-21 04:21:39 Train ---- Epoch [12/100], Iteration [1000/1259]: Loss: 0.20721340626478196
+Time: 2025-05-21 04:22:09 Train ---- Epoch [12/100], Iteration [1100/1259]: Loss: 0.21447747539390216
+Time: 2025-05-21 04:22:39 Train ---- Epoch [12/100], Iteration [1200/1259]: Loss: 0.20452981938918433
+Time: 2025-05-21 04:22:57 Train ---- Epoch [12/100], Iteration [1259/1259]: Loss: 0.1982938492527375
+Time: 2025-05-21 04:23:47 Eval ---- Epoch [12/100], Iteration [100/165]:
+Time: 2025-05-21 04:24:01 Eval ---- Epoch [12/100], Iteration [165/165]: F1Score: 0.9453125
+Time: 2025-05-21 04:25:11 Train ---- Epoch [13/100], Iteration [100/1259]: Loss: 0.1909133493900299
+Time: 2025-05-21 04:25:41 Train ---- Epoch [13/100], Iteration [200/1259]: Loss: 0.14778942614793777
+Time: 2025-05-21 04:26:10 Train ---- Epoch [13/100], Iteration [300/1259]: Loss: 0.1422392576932907
+Time: 2025-05-21 04:26:40 Train ---- Epoch [13/100], Iteration [400/1259]: Loss: 0.1492767594754696
+Time: 2025-05-21 04:27:11 Train ---- Epoch [13/100], Iteration [500/1259]: Loss: 0.16136469542980195
+Time: 2025-05-21 04:27:41 Train ---- Epoch [13/100], Iteration [600/1259]: Loss: 0.1536242924630642
+Time: 2025-05-21 04:28:10 Train ---- Epoch [13/100], Iteration [700/1259]: Loss: 0.1650701410004071
+Time: 2025-05-21 04:28:41 Train ---- Epoch [13/100], Iteration [800/1259]: Loss: 0.16248842421919107
+Time: 2025-05-21 04:29:11 Train ---- Epoch [13/100], Iteration [900/1259]: Loss: 0.1580664250585768
+Time: 2025-05-21 04:29:41 Train ---- Epoch [13/100], Iteration [1000/1259]: Loss: 0.15981173664331436
+Time: 2025-05-21 04:30:11 Train ---- Epoch [13/100], Iteration [1100/1259]: Loss: 0.1604124348271977
+Time: 2025-05-21 04:30:40 Train ---- Epoch [13/100], Iteration [1200/1259]: Loss: 0.16214056809743246
+Time: 2025-05-21 04:30:57 Train ---- Epoch [13/100], Iteration [1259/1259]: Loss: 0.16111688430492693
+Time: 2025-05-21 04:31:48 Eval ---- Epoch [13/100], Iteration [100/165]:
+Time: 2025-05-21 04:32:02 Eval ---- Epoch [13/100], Iteration [165/165]: F1Score: 0.95703125
+Time: 2025-05-21 04:33:13 Train ---- Epoch [14/100], Iteration [100/1259]: Loss: 0.12094005197286606
+Time: 2025-05-21 04:33:42 Train ---- Epoch [14/100], Iteration [200/1259]: Loss: 0.09573470428586006
+Time: 2025-05-21 04:34:13 Train ---- Epoch [14/100], Iteration [300/1259]: Loss: 0.11270699153343837
+Time: 2025-05-21 04:34:42 Train ---- Epoch [14/100], Iteration [400/1259]: Loss: 0.10044093988835812
+Time: 2025-05-21 04:35:13 Train ---- Epoch [14/100], Iteration [500/1259]: Loss: 0.1082291767001152
+Time: 2025-05-21 04:35:43 Train ---- Epoch [14/100], Iteration [600/1259]: Loss: 0.10561926166216533
+Time: 2025-05-21 04:36:12 Train ---- Epoch [14/100], Iteration [700/1259]: Loss: 0.12368039361068181
+Time: 2025-05-21 04:36:42 Train ---- Epoch [14/100], Iteration [800/1259]: Loss: 0.12908686138689518
+Time: 2025-05-21 04:37:13 Train ---- Epoch [14/100], Iteration [900/1259]: Loss: 0.1427996340725157
+Time: 2025-05-21 04:37:43 Train ---- Epoch [14/100], Iteration [1000/1259]: Loss: 0.1410490781068802
+Time: 2025-05-21 04:38:12 Train ---- Epoch [14/100], Iteration [1100/1259]: Loss: 0.1372663595459678
+Time: 2025-05-21 04:38:41 Train ---- Epoch [14/100], Iteration [1200/1259]: Loss: 0.13771614929040274
+Time: 2025-05-21 04:38:58 Train ---- Epoch [14/100], Iteration [1259/1259]: Loss: 0.13452349775112593
+Time: 2025-05-21 04:39:48 Eval ---- Epoch [14/100], Iteration [100/165]:
+Time: 2025-05-21 04:40:02 Eval ---- Epoch [14/100], Iteration [165/165]: F1Score: 0.96484375
+Time: 2025-05-21 04:41:12 Train ---- Epoch [15/100], Iteration [100/1259]: Loss: 0.08212385326623917
+Time: 2025-05-21 04:41:41 Train ---- Epoch [15/100], Iteration [200/1259]: Loss: 0.1340171955525875
+Time: 2025-05-21 04:42:11 Train ---- Epoch [15/100], Iteration [300/1259]: Loss: 0.15402795126040777
+Time: 2025-05-21 04:42:40 Train ---- Epoch [15/100], Iteration [400/1259]: Loss: 0.1504147108644247
+Time: 2025-05-21 04:43:10 Train ---- Epoch [15/100], Iteration [500/1259]: Loss: 0.15543883591890334
+Time: 2025-05-21 04:43:41 Train ---- Epoch [15/100], Iteration [600/1259]: Loss: 0.1593419425189495
+Time: 2025-05-21 04:44:11 Train ---- Epoch [15/100], Iteration [700/1259]: Loss: 0.14977720166955674
+Time: 2025-05-21 04:44:40 Train ---- Epoch [15/100], Iteration [800/1259]: Loss: 0.14732011407613754
+Time: 2025-05-21 04:45:10 Train ---- Epoch [15/100], Iteration [900/1259]: Loss: 0.13957816776302126
+Time: 2025-05-21 04:45:40 Train ---- Epoch [15/100], Iteration [1000/1259]: Loss: 0.14050816670060157
+Time: 2025-05-21 04:46:09 Train ---- Epoch [15/100], Iteration [1100/1259]: Loss: 0.13950908251784064
+Time: 2025-05-21 04:46:39 Train ---- Epoch [15/100], Iteration [1200/1259]: Loss: 0.13473477152486643
+Time: 2025-05-21 04:46:58 Train ---- Epoch [15/100], Iteration [1259/1259]: Loss: 0.1368430686684755
+Time: 2025-05-21 04:47:48 Eval ---- Epoch [15/100], Iteration [100/165]:
+Time: 2025-05-21 04:48:01 Eval ---- Epoch [15/100], Iteration [165/165]: F1Score: 0.9765625
+Time: 2025-05-21 04:49:11 Train ---- Epoch [16/100], Iteration [100/1259]: Loss: 0.06936115026473999
+Time: 2025-05-21 04:49:41 Train ---- Epoch [16/100], Iteration [200/1259]: Loss: 0.10035718232393265
+Time: 2025-05-21 04:50:11 Train ---- Epoch [16/100], Iteration [300/1259]: Loss: 0.10854000101486842
+Time: 2025-05-21 04:50:43 Train ---- Epoch [16/100], Iteration [400/1259]: Loss: 0.12456207163631916
+Time: 2025-05-21 04:51:14 Train ---- Epoch [16/100], Iteration [500/1259]: Loss: 0.1279076650738716
+Time: 2025-05-21 04:51:45 Train ---- Epoch [16/100], Iteration [600/1259]: Loss: 0.1364088368912538
+Time: 2025-05-21 04:52:16 Train ---- Epoch [16/100], Iteration [700/1259]: Loss: 0.13615955305950983
+Time: 2025-05-21 04:52:46 Train ---- Epoch [16/100], Iteration [800/1259]: Loss: 0.138510980643332
+Time: 2025-05-21 04:53:16 Train ---- Epoch [16/100], Iteration [900/1259]: Loss: 0.13536290410492155
+Time: 2025-05-21 04:53:47 Train ---- Epoch [16/100], Iteration [1000/1259]: Loss: 0.14522531107068062
+Time: 2025-05-21 04:54:17 Train ---- Epoch [16/100], Iteration [1100/1259]: Loss: 0.14698188345540653
+Time: 2025-05-21 04:54:48 Train ---- Epoch [16/100], Iteration [1200/1259]: Loss: 0.14978885340193906
+Time: 2025-05-21 04:55:06 Train ---- Epoch [16/100], Iteration [1259/1259]: Loss: 0.1530548259615898
+Time: 2025-05-21 04:55:56 Eval ---- Epoch [16/100], Iteration [100/165]:
+Time: 2025-05-21 04:56:10 Eval ---- Epoch [16/100], Iteration [165/165]: F1Score: 0.9375
+Time: 2025-05-21 04:57:20 Train ---- Epoch [17/100], Iteration [100/1259]: Loss: 0.07797674834728241
+Time: 2025-05-21 04:57:50 Train ---- Epoch [17/100], Iteration [200/1259]: Loss: 0.06207140348851681
+Time: 2025-05-21 04:58:19 Train ---- Epoch [17/100], Iteration [300/1259]: Loss: 0.0966779130200545
+Time: 2025-05-21 04:58:49 Train ---- Epoch [17/100], Iteration [400/1259]: Loss: 0.09617909137159586
+Time: 2025-05-21 04:59:18 Train ---- Epoch [17/100], Iteration [500/1259]: Loss: 0.11056217029690743
+Time: 2025-05-21 04:59:48 Train ---- Epoch [17/100], Iteration [600/1259]: Loss: 0.11561428072551887
+Time: 2025-05-21 05:00:18 Train ---- Epoch [17/100], Iteration [700/1259]: Loss: 0.12525677095566476
+Time: 2025-05-21 05:00:48 Train ---- Epoch [17/100], Iteration [800/1259]: Loss: 0.11925246333703399
+Time: 2025-05-21 05:01:18 Train ---- Epoch [17/100], Iteration [900/1259]: Loss: 0.11946496408846644
+Time: 2025-05-21 05:01:48 Train ---- Epoch [17/100], Iteration [1000/1259]: Loss: 0.11664316095411778
+Time: 2025-05-21 05:02:18 Train ---- Epoch [17/100], Iteration [1100/1259]: Loss: 0.11555539850484241
+Time: 2025-05-21 05:02:49 Train ---- Epoch [17/100], Iteration [1200/1259]: Loss: 0.1182994491731127
+Time: 2025-05-21 05:03:06 Train ---- Epoch [17/100], Iteration [1259/1259]: Loss: 0.11984502438169259
+Time: 2025-05-21 05:03:56 Eval ---- Epoch [17/100], Iteration [100/165]:
+Time: 2025-05-21 05:04:10 Eval ---- Epoch [17/100], Iteration [165/165]: F1Score: 0.96875
+Time: 2025-05-21 05:05:20 Train ---- Epoch [18/100], Iteration [100/1259]: Loss: 0.07140391319990158
+Time: 2025-05-21 05:05:49 Train ---- Epoch [18/100], Iteration [200/1259]: Loss: 0.1045689769089222
+Time: 2025-05-21 05:06:19 Train ---- Epoch [18/100], Iteration [300/1259]: Loss: 0.13345729559659958
+Time: 2025-05-21 05:06:49 Train ---- Epoch [18/100], Iteration [400/1259]: Loss: 0.13966422341763973
+Time: 2025-05-21 05:07:19 Train ---- Epoch [18/100], Iteration [500/1259]: Loss: 0.13888805657625197
+Time: 2025-05-21 05:07:48 Train ---- Epoch [18/100], Iteration [600/1259]: Loss: 0.12798373276988664
+Time: 2025-05-21 05:08:18 Train ---- Epoch [18/100], Iteration [700/1259]: Loss: 0.12227088319403785
+Time: 2025-05-21 05:08:48 Train ---- Epoch [18/100], Iteration [800/1259]: Loss: 0.1306805396452546
+Time: 2025-05-21 05:09:19 Train ---- Epoch [18/100], Iteration [900/1259]: Loss: 0.12897922595342
+Time: 2025-05-21 05:09:48 Train ---- Epoch [18/100], Iteration [1000/1259]: Loss: 0.1346687465906143
+Time: 2025-05-21 05:10:18 Train ---- Epoch [18/100], Iteration [1100/1259]: Loss: 0.13059077140959827
+Time: 2025-05-21 05:10:47 Train ---- Epoch [18/100], Iteration [1200/1259]: Loss: 0.1281815885255734
+Time: 2025-05-21 05:11:06 Train ---- Epoch [18/100], Iteration [1259/1259]: Loss: 0.12568994439565218
+Time: 2025-05-21 05:11:56 Eval ---- Epoch [18/100], Iteration [100/165]:
+Time: 2025-05-21 05:12:10 Eval ---- Epoch [18/100], Iteration [165/165]: F1Score: 0.95703125
+Time: 2025-05-21 05:13:20 Train ---- Epoch [19/100], Iteration [100/1259]: Loss: 0.12516362965106964
+Time: 2025-05-21 05:13:49 Train ---- Epoch [19/100], Iteration [200/1259]: Loss: 0.13524068146944046
+Time: 2025-05-21 05:14:19 Train ---- Epoch [19/100], Iteration [300/1259]: Loss: 0.128483717640241
+Time: 2025-05-21 05:14:49 Train ---- Epoch [19/100], Iteration [400/1259]: Loss: 0.13734090328216553
+Time: 2025-05-21 05:15:19 Train ---- Epoch [19/100], Iteration [500/1259]: Loss: 0.1430511713027954
+Time: 2025-05-21 05:15:49 Train ---- Epoch [19/100], Iteration [600/1259]: Loss: 0.14053953935702643
+Time: 2025-05-21 05:16:18 Train ---- Epoch [19/100], Iteration [700/1259]: Loss: 0.14014038230691636
+Time: 2025-05-21 05:16:48 Train ---- Epoch [19/100], Iteration [800/1259]: Loss: 0.13535969983786345
+Time: 2025-05-21 05:17:18 Train ---- Epoch [19/100], Iteration [900/1259]: Loss: 0.13345838255352444
+Time: 2025-05-21 05:17:48 Train ---- Epoch [19/100], Iteration [1000/1259]: Loss: 0.13132770732045174
+Time: 2025-05-21 05:18:18 Train ---- Epoch [19/100], Iteration [1100/1259]: Loss: 0.1276425143534487
+Time: 2025-05-21 05:18:47 Train ---- Epoch [19/100], Iteration [1200/1259]: Loss: 0.12673905678093433
+Time: 2025-05-21 05:19:04 Train ---- Epoch [19/100], Iteration [1259/1259]: Loss: 0.12917584008895433
+Time: 2025-05-21 05:19:54 Eval ---- Epoch [19/100], Iteration [100/165]:
+Time: 2025-05-21 05:20:08 Eval ---- Epoch [19/100], Iteration [165/165]: F1Score: 0.9765625
+Time: 2025-05-21 05:21:19 Train ---- Epoch [20/100], Iteration [100/1259]: Loss: 0.07489804178476334
+Time: 2025-05-21 05:21:49 Train ---- Epoch [20/100], Iteration [200/1259]: Loss: 0.05636380799114704
+Time: 2025-05-21 05:22:18 Train ---- Epoch [20/100], Iteration [300/1259]: Loss: 0.06120474264025688
+Time: 2025-05-21 05:22:47 Train ---- Epoch [20/100], Iteration [400/1259]: Loss: 0.06236971449106932
+Time: 2025-05-21 05:23:17 Train ---- Epoch [20/100], Iteration [500/1259]: Loss: 0.06432163044810295
+Time: 2025-05-21 05:23:48 Train ---- Epoch [20/100], Iteration [600/1259]: Loss: 0.06779119061927001
+Time: 2025-05-21 05:24:17 Train ---- Epoch [20/100], Iteration [700/1259]: Loss: 0.07090102934411593
+Time: 2025-05-21 05:24:47 Train ---- Epoch [20/100], Iteration [800/1259]: Loss: 0.06895174505189061
+Time: 2025-05-21 05:25:17 Train ---- Epoch [20/100], Iteration [900/1259]: Loss: 0.07185618041290177
+Time: 2025-05-21 05:25:48 Train ---- Epoch [20/100], Iteration [1000/1259]: Loss: 0.09357978664338588
+Time: 2025-05-21 05:26:17 Train ---- Epoch [20/100], Iteration [1100/1259]: Loss: 0.10580309378829869
+Time: 2025-05-21 05:26:47 Train ---- Epoch [20/100], Iteration [1200/1259]: Loss: 0.10641054343432188
+Time: 2025-05-21 05:27:04 Train ---- Epoch [20/100], Iteration [1259/1259]: Loss: 0.11127520094697292
+Time: 2025-05-21 05:27:54 Eval ---- Epoch [20/100], Iteration [100/165]:
+Time: 2025-05-21 05:28:08 Eval ---- Epoch [20/100], Iteration [165/165]: F1Score: 0.984375
+Time: 2025-05-21 05:29:19 Train ---- Epoch [21/100], Iteration [100/1259]: Loss: 0.08974917978048325
+Time: 2025-05-21 05:29:49 Train ---- Epoch [21/100], Iteration [200/1259]: Loss: 0.09794808551669121
+Time: 2025-05-21 05:30:19 Train ---- Epoch [21/100], Iteration [300/1259]: Loss: 0.09930360317230225
+Time: 2025-05-21 05:30:50 Train ---- Epoch [21/100], Iteration [400/1259]: Loss: 0.09468289092183113
+Time: 2025-05-21 05:31:19 Train ---- Epoch [21/100], Iteration [500/1259]: Loss: 0.09474388360977173
+Time: 2025-05-21 05:31:50 Train ---- Epoch [21/100], Iteration [600/1259]: Loss: 0.09697508439421654
+Time: 2025-05-21 05:31:50 Train ---- Epoch [21/100], Iteration [600/1259]: Loss: 0.09697508439421654
+Time: 2025-05-21 05:32:19 Train ---- Epoch [21/100], Iteration [700/1259]: Loss: 0.09951241101537432
+Time: 2025-05-21 05:32:48 Train ---- Epoch [21/100], Iteration [800/1259]: Loss: 0.09694715775549412
+Time: 2025-05-21 05:33:18 Train ---- Epoch [21/100], Iteration [900/1259]: Loss: 0.09745817631483078
+Time: 2025-05-21 05:33:48 Train ---- Epoch [21/100], Iteration [1000/1259]: Loss: 0.09597059488296508
+Time: 2025-05-21 05:34:19 Train ---- Epoch [21/100], Iteration [1100/1259]: Loss: 0.09631746465509589
+Time: 2025-05-21 05:34:48 Train ---- Epoch [21/100], Iteration [1200/1259]: Loss: 0.10119853168725967
+Time: 2025-05-21 05:35:06 Train ---- Epoch [21/100], Iteration [1259/1259]: Loss: 0.10494306798164661
+Time: 2025-05-21 05:35:57 Eval ---- Epoch [21/100], Iteration [100/165]:
+Time: 2025-05-21 05:36:11 Eval ---- Epoch [21/100], Iteration [165/165]: F1Score: 0.98046875        

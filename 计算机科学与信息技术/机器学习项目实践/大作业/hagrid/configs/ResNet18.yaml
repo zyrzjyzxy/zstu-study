@@ -1,0 +1,126 @@
+epochs: 100
+log_every: 100 # 每 log_every 步记录日志
+eval_every: 1 # 每 eval_every epoch验证一次
+test_every: 0 # 每 test_every epoch测试一次
+experiment_name: ResNet18
+work_dir: work_dir
+
+# 若指标10个epoch未提升，停止
+early_stopping:
+    epochs: 10
+    metric: 0.01 # 损失变化小于0.01
+
+
+dataset:
+    annotations_train: <path_to_json_train>
+    annotations_val: <path_to_json_val>
+    annotations_test: <path_to_json_test>
+
+    dataset_train: <path_to_dataset_folder>
+    dataset_val: <path_to_dataset_folder>
+    dataset_test: <path_to_dataset_folder>
+
+    img_size: &img_size 224 # 输入图片尺寸 必须是正方形
+    img_mean: &img_mean [0.54, 0.499, 0.474] # 图像归一化均值
+    img_std: &img_std [0.234, 0.235, 0.231] # 图像归一化标准差
+    subset: -1 # 训练数据子集数量，-1表示全部
+
+    one_class: False # 是否只训练单类别
+
+    targets:
+        - one
+        - peace
+        - three
+        # - no_gesture
+
+# Transform and augmentation pipeline. See https://albumentations.ai/docs/ for using
+train_transforms:
+    LongestMaxSize:
+        max_size: *img_size # 最长边缩放到img_size
+        p: 1 # 应用概率100%
+    PadIfNeeded:
+        min_height: *img_size # 填充到img_size高度
+        min_width: *img_size # 填充到img_size宽度
+        value: [144,144,144] # 填充背景色
+        border_mode: 0 # 边界模式（常数填充）
+        p: 1 # 应用概率100%
+    Normalize:
+        mean: *img_mean # 归一化均值
+        std: *img_std # 归一化标准差
+        max_pixel_value: 255.0 # 最大像素值
+        p: 1 # 应用概率100%
+
+val_transforms:
+    LongestMaxSize:
+        max_size: *img_size
+        p: 1
+    PadIfNeeded:
+        min_height: *img_size
+        min_width: *img_size
+        value: [144,144,144]
+        border_mode: 0
+        p: 1
+    Normalize:
+        mean: *img_mean
+        std: *img_std
+        max_pixel_value: 255.0
+        p: 1
+
+test_transforms:
+    LongestMaxSize:
+        max_size: *img_size
+        p: 1
+    PadIfNeeded:
+        min_height: *img_size
+        min_width: *img_size
+        value: [144,144,144]
+        border_mode: 0
+        p: 1
+    Normalize:
+        mean: *img_mean
+        std: *img_std
+        max_pixel_value: 255.0
+        p: 1
+
+# 模型参数
+model:
+    name: ResNet18
+    pretrained: False
+    pretrained_backbone: False
+    checkpoint: GestureDetectors/ResNet18_epoch_11_F1Score_0.6_loss_1.1.pth
+
+# 优化器参数
+optimizer:
+    name: SGD
+    params:
+        lr: 0.01 # 学习率
+        weight_decay: 0.0001 # 权重衰减
+        momentum: 0.9 # 动量
+
+# 学习率调度器
+scheduler:
+    name: ReduceLROnPlateau
+    params:
+        mode: min # 监控指标模式（最小化）
+        factor: 0.1 # 学习率缩放因子
+
+# 损失函数
+criterion: CrossEntropyLoss
+
+train_params:
+    num_workers: 16 # 数据加载线程数
+    shuffle: True
+    batch_size: 128
+    prefetch_factor: 3 # 预取因子
+
+test_params:
+    num_workers: 16
+    shuffle: False
+    batch_size: 128
+    prefetch_factor: 3
+
+val_params:
+    num_workers: 16
+    shuffle: False
+    batch_size: 128
+    prefetch_factor: 3

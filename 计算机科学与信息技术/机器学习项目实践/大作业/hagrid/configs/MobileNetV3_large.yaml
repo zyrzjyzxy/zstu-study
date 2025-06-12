@@ -1,0 +1,127 @@
+epochs: 100
+log_every: 100 # 每 log_every 步记录日志
+eval_every: 1 # 每 eval_every epoch验证一次
+test_every: 0 # 每 test_every epoch测试一次
+experiment_name: MobileNetV3_large
+work_dir: work_dir
+
+# 若指标10个epoch未提升，停止
+early_stopping:
+    epochs: 10
+    metric: 0.01 # 损失变化小于0.01
+
+
+dataset:
+    annotations_train: <path_to_json_train>
+    annotations_val: <path_to_json_val>
+    annotations_test: <path_to_json_test>
+
+    dataset_train: <path_to_dataset_folder>
+    dataset_val: <path_to_dataset_folder>
+    dataset_test: <path_to_dataset_folder>
+
+    img_size: &img_size 224 # 输入图片尺寸 必须是正方形
+    img_mean: &img_mean [0.54, 0.499, 0.474] # 图像归一化均值
+    img_std: &img_std [0.234, 0.235, 0.231] # 图像归一化标准差
+    subset: -1 # 训练数据子集数量，-1表示全部
+
+    one_class: False # 是否只训练单类别
+
+    targets:
+        - one
+        - peace
+        - three
+        # - no_gesture
+
+# 变换和增强：albumentations
+train_transforms:
+    LongestMaxSize:
+        max_size: *img_size
+        p: 1
+    PadIfNeeded:
+        min_height: *img_size
+        min_width: *img_size
+        value: [144,144,144]
+        border_mode: 0
+        p: 1
+    Normalize:
+        mean: *img_mean
+        std: *img_std
+        max_pixel_value: 255.0
+        p: 1
+
+val_transforms:
+    LongestMaxSize:
+        max_size: *img_size
+        p: 1
+    PadIfNeeded:
+        min_height: *img_size
+        min_width: *img_size
+        value: [144,144,144]
+        border_mode: 0
+        p: 1
+    Normalize:
+        mean: *img_mean
+        std: *img_std
+        max_pixel_value: 255.0
+        p: 1
+
+test_transforms:
+    LongestMaxSize:
+        max_size: *img_size
+        p: 1
+    PadIfNeeded:
+        min_height: *img_size
+        min_width: *img_size
+        value: [144,144,144]
+        border_mode: 0
+        p: 1
+    Normalize:
+        mean: *img_mean
+        std: *img_std
+        max_pixel_value: 255.0
+        p: 1
+
+# 模型
+model:
+    name: MobileNetV3_large
+    pretrained: False 
+    pretrained_backbone: False
+    # checkpoint: GestureDetectors/MobileNetV3_large_epoch_20_F1Score_0.98_loss_0.11.pth
+    # checkpoint: GestureDetectors/MN-7/MobileNetV3_large_epoch_3_F1Score_0.91_loss_0.47.pth
+    checkpoint: GestureDetectors/MN-7/MobileNetV3_large_epoch_11_F1Score_0.98_loss_0.18.pth
+
+# 优化器
+optimizer:
+    name: SGD # 随机梯度下降
+    params:
+        lr: 0.005 # 学习率
+        momentum: 0.9 # 动量 加速收敛
+        weight_decay: 0.0005 # 权重衰减 防止过拟合
+
+# 学习率调度器
+scheduler:
+    name: StepLR # 分步衰减 每step_size个epoch衰减一次
+    params:
+        step_size: 30
+        gamma: 0.1 # 衰减率
+
+criterion: CrossEntropyLoss # 交叉熵
+
+train_params:
+    num_workers: 16 # 加载器进程数
+    shuffle: True # 打乱
+    batch_size: 128 # 批次样本数
+    prefetch_factor: 3 # 加载器预取样本数
+
+test_params:
+    num_workers: 16
+    shuffle: False
+    batch_size: 128
+    prefetch_factor: 3
+
+val_params:
+    num_workers: 16
+    shuffle: False
+    batch_size: 128
+    prefetch_factor: 3

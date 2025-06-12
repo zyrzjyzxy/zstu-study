@@ -1,16 +1,20 @@
 # zstu-study
 
-感谢所有贡献者！欢迎提交 [Pull requests](https://github.com/chen2438/zstu-study/pulls) 参与维护此仓库或练习 Github 使用方法。推荐提交至 `dev` 分支。`main` 分支受保护，禁止直接`commit` 或 `force push`，需提交 `pull request` 以更改。
+> 因仓库较大，`clone`较为困难，如有某文件夹的下载需要，可发邮件至 admin@vayki.com
 
-欢迎关注: [www.chenhaotian.top](https://www.chenhaotian.top)
+感谢所有贡献者！欢迎提交 [Pull requests](https://github.com/chen2438/zstu-study/pulls) 参与维护此仓库或练习 Github 使用方法。推荐提交至 `dev` 分支。`main` 分支受保护，禁止直接`commit` 或 `force push`，需提交 `pull request` 以更改。
 
 电子邮件: admin@vayki.com
 
-友情链接: [zstu.wiki](https://zstu.wiki/)
+友情链接: 
+
+- [chenhaotian.top](https://chenhaotian.top)
+- [zstu.wiki](https://zstu.wiki/)
+- [zstuacm.top](https://zstuacm.top)
 
 ### 分支说明
 
-main分支为项目主分支，dev分支为建议pull request分支，merge分支为经文件整理后分支（目前由zyrzjyzxy维护，含ZSTU_选课提示）。
+main 分支为项目主分支，dev 分支为建议 Pull request 分支，merge 分支为计算机类文件分支（目前由zyrzjyzxy维护，含ZSTU_选课提示）。
 
 ### 项目简介
 
@@ -39,6 +43,8 @@ main分支为项目主分支，dev分支为建议pull request分支，merge分�
 [0.3.1](https://github.com/chen2438/zstu-study/releases/tag/0.3.1) 存档已释出.
 
 [0.4.0](https://github.com/chen2438/zstu-study/releases/tag/0.4.0) 存档已释出.
+
+[0.5.0](https://github.com/chen2438/zstu-study/releases/tag/0.5.0) 存档已释出.
 
 ### 宇宙安全声明
 
