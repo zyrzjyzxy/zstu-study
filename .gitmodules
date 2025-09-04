@@ -1,0 +1,3 @@
+[submodule "03子仓库/Leon-KTlan"]
+	path = 03子仓库/Leon-KTlan
+	url = https://github.com/Leon-KTlan/universityexam.git
