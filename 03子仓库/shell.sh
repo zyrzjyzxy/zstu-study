@@ -1,0 +1,1 @@
+git submodule add https://github.com/Leon-KTlan/universitystudy.git path/to/submodule
