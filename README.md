@@ -1,6 +1,6 @@
 # zstu-study
 
-> 因仓库较大，`clone`较为困难，如有某文件夹的下载需要，可发邮件至 admin@vayki.com
+> 因仓库较大，`clone`较为困难，如有某文件夹的下载需要，可使用 [Download GitHub directory](https://download-directory.github.io/) 进行下载，或发邮件至 admin@vayki.com 请求帮助。
 
 感谢所有贡献者！欢迎提交 [Pull requests](https://github.com/chen2438/zstu-study/pulls) 参与维护此仓库或练习 Github 使用方法。推荐提交至 `dev` 分支。`main` 分支受保护，禁止直接`commit` 或 `force push`，需提交 `pull request` 以更改。
 
@@ -9,8 +9,8 @@
 友情链接: 
 
 - [chenhaotian.top](https://chenhaotian.top)
-- [zstu.wiki](https://zstu.wiki/)
-- [zstuacm.top](https://zstuacm.top)
+- [zstu.wiki](https://zstu.wiki/), now redirect to [zstu.littleqiu.cn](https://zstu.littleqiu.cn/)
+- [zstuacm.top](https://zstuacm.top), now 404
 
 ### 分支说明
 
