@@ -1,0 +1,3 @@
+@DOSKEY alice-d=bitcoind -regtest -datadir=%appdata%\bitcoin\alice $* @DOSKEY bob-d=bitcoind -regtest -datadir=%appdata%\bitcoin\bob $* @DOSKEY network-d=bitcoind -regtest -datadir=%appdata%\bitcoin\network $*
+@DOSKEY alice-cli=bitcoin-cli -regtest -datadir=%appdata%\bitcoin\alice $* @DOSKEY bob-cli=bitcoin-cli -regtest -datadir=%appdata%\bitcoin\bob $* @DOSKEY network-cli=bitcoin-cli -regtest -datadir=%appdata%\bitcoin\network $*
+@DOSKEY alice-qt=bitcoin-qt -regtest -datadir=%appdata%\bitcoin\alice $* @DOSKEY bob-qt=bitcoin-qt -regtest -datadir=%appdata%\bitcoin\bob $* @DOSKEY network-qt=bitcoin-qt -regtest -datadir=%appdata%\bitcoin\network $*

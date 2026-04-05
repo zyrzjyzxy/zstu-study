@@ -2,8 +2,9 @@
 
 > 因仓库较大，`clone`较为困难，如有某文件夹的下载需要，可使用 [Download GitHub directory](https://download-directory.github.io/) 进行下载，或发邮件至 admin@vayki.com 请求帮助。
 
-感谢所有贡献者！欢迎提交 [Pull requests](https://github.com/chen2438/zstu-study/pulls) 参与维护此仓库或练习 Github 使用方法。推荐提交至 `dev` 分支。`main` 分支受保护，禁止直接`commit` 或 `force push`，需提交 `pull request` 以更改。
+感谢所有贡献者！欢迎提交 [Pull requests](https://github.com/chen2438/zstu-study/pulls) 参与维护此仓库或练习 Github 使用方法。推荐提交至 `dev` 分支。`main` 分支受保护，禁止直接 `commit` 或 `force push`，需提交 `pull request` 以更改。
 
+**在提交资源或上传文件前，请务必仔细阅读 [更新规则](./00本项目维护手册/更新规则.md)，遵循文件命名、大文件限制及分类目录规范，以共同维护仓库的整洁与易用。**
 电子邮件: admin@vayki.com
 
 友情链接: 
