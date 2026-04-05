@@ -15,7 +15,8 @@
 
 ### 分支说明
 
-main 分支为项目主分支，dev 分支为建议 Pull request 分支，merge 分支为计算机类文件分支（目前由zyrzjyzxy维护，含ZSTU_选课提示）。
+main 分支为项目主分支，dev 分支为建议 Pull request 分支。目前项目由[zyrzjyzxy](https://github.com/zyrzjyzxy)维护。
+
 
 ### 项目简介
 
