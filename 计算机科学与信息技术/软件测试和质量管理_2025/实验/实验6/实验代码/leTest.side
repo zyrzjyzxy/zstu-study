@@ -1,0 +1,486 @@
+{
+  "id": "26c13625-be35-4778-beb8-57e764835eb1",
+  "version": "2.0",
+  "name": "leTest",
+  "url": "https://www.le.com",
+  "tests": [{
+    "id": "77cac558-1433-47c3-9121-e4d2a169da72",
+    "name": "leTest1",
+    "commands": [{
+      "id": "20bab910-2c03-46a6-84bf-8349271dec37",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5fbea1e-66bc-4ea4-a8e1-90e1e0905628",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "866x1073",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cebd8ecf-d129-4067-b7a3-10eaa39bc582",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.focus_list li:nth-child(1) > a",
+      "targets": [
+        ["css=.focus_list li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='j-focusmapflash']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.le.com/ptv/vplay/77886880.html')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "516f183f-d909-4e94-b559-856c800b5a35",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=电影",
+      "targets": [
+        ["linkText=电影", "linkText"],
+        ["css=.nav_box4_2 > .font_blod:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'电影')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '//movie.le.com')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/ul[2]/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6006",
+      "windowTimeout": 2000
+    }, {
+      "id": "c68ca856-c538-4012-ac56-19610f4dd055",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6006}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57f4c576-0d22-4925-8791-de7ad4f6d044",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav_box2 .curr",
+      "targets": [
+        ["css=.nav_box2 .curr", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'全部')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3153",
+      "windowTimeout": 2000
+    }, {
+      "id": "995b6e16-3503-4035-b573-7f6d8b6a2e1b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3153}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06f797f0-0f19-45ca-ad24-2ac3c5c2c24f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=免费",
+      "targets": [
+        ["linkText=免费", "linkText"],
+        ["css=.prop:nth-child(1) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'免费')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c1_t-1_a-1_y-1_s1_lg-1_ph1_md_o9_d1_p')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'免费')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f32bbe56-8a30-4c9b-9f73-c76b282a9d1c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=动作",
+      "targets": [
+        ["linkText=动作", "linkText"],
+        ["css=.prop:nth-child(2) li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'动作')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c1_t30010_a-1_y-1_s1_lg-1_ph1_md_o9_d1_p')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'动作')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced46427-f152-4f62-8e43-bc05dfa6f266",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=中国香港",
+      "targets": [
+        ["linkText=中国香港", "linkText"],
+        ["css=.prop:nth-child(3) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'中国香港')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c1_t30010_a50002_y-1_s1_lg-1_ph1_md_o9_d1_p')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'中国香港')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08bbc3f3-e20c-4636-8836-1572116115a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2016",
+      "targets": [
+        ["linkText=2016", "linkText"],
+        ["css=.prop:nth-child(4) li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2016')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[4]/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c1_t30010_a50002_y2016_s1_lg-1_ph1_md_o9_d1_p')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2016')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4613eaaf-06ba-4cec-9e6e-b64001a4922e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=最新",
+      "targets": [
+        ["linkText=最新", "linkText"],
+        ["css=.tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'最新')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c1_t30010_a50002_y2016_s1_lg-1_ph1_md_o7_d1_p')]", "xpath:href"],
+        ["xpath=//body/div/div/div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'最新')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e740859-25db-4e2a-9eb8-ccafde1ebfef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.videoBox:nth-child(1) img",
+      "targets": [
+        ["css=.videoBox:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='赏金猎人']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb3082bd-b474-4f22-b75e-cca8d0068bb8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='赏金猎人']",
+      "targets": [
+        ["css=.ant-popover-open img", "css:finder"],
+        ["xpath=//img[@alt='赏金猎人']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6182",
+      "windowTimeout": 2000
+    }, {
+      "id": "beb3260d-1000-4dd8-a0ba-04b3633891a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-popover-open img",
+      "targets": [
+        ["css=.ant-popover-open img", "css:finder"],
+        ["xpath=//img[@alt='赏金猎人']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "894ab44c-dfb2-4d8f-9362-933ca7f2f0a3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6182}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e1c876e-5d4d-47fc-b177-e9720ce6b8a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.j-juji-recommend i",
+      "targets": [
+        ["css=.j-juji-recommend i", "css:finder"],
+        ["xpath=//dl[2]/dt/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b44f1353-7b3c-404c-9f85-47390ef952e2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.j-juji-recommend i",
+      "targets": [
+        ["css=.j-juji-recommend i", "css:finder"],
+        ["xpath=//dl[2]/dt/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38438bb5-e232-4327-91e0-ffd838600921",
+      "comment": "",
+      "command": "click",
+      "target": "name=wd",
+      "targets": [
+        ["name=wd", "name"],
+        ["css=.search_input", "css:finder"],
+        ["xpath=//input[@name='wd']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb16b650-b08a-4f91-b2cb-b7b5a5d65745",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search_btn",
+      "targets": [
+        ["css=.search_btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'搜索')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53d95b14-f577-4957-92a8-a1bc012313e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=wd",
+      "targets": [
+        ["name=wd", "name"],
+        ["css=.search_input", "css:finder"],
+        ["xpath=//input[@name='wd']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "周星驰"
+    }, {
+      "id": "d91adb70-d0f6-4ac1-8f80-4198df6990a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_btn",
+      "targets": [
+        ["css=.search_btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'搜索')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a47bad5-fdc2-4986-bba8-ed59f5a45b57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.channel_home > .icon_text",
+      "targets": [
+        ["css=.channel_home > .icon_text", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'首页')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6d12bb-eb35-4b02-816e-1abcde1366bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=电视剧",
+      "targets": [
+        ["linkText=电视剧", "linkText"],
+        ["css=.nav_box4_1 > .font_blod:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'电视剧')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '//tv.le.com')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5138",
+      "windowTimeout": 2000
+    }, {
+      "id": "f8d12b4d-78df-4e96-9415-35c56628b427",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5138}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9aa481e-004d-4748-9a4f-c0f50c8be364",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=更多",
+      "targets": [
+        ["linkText=更多", "linkText"],
+        ["css=.more:nth-child(19) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'更多')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '//list.le.com/listn/c2_t-1_a-1_y-1_s1_md_o20_d1_p.html')]", "xpath:href"],
+        ["xpath=//li[19]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'更多')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1590",
+      "windowTimeout": 2000
+    }, {
+      "id": "4754dda1-f09a-445d-9bb1-04a867ee9759",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1590}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "279a7644-be30-4894-9606-7db3f23206de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=独播",
+      "targets": [
+        ["linkText=独播", "linkText"],
+        ["css=.prop:nth-child(1) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'独播')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c2_t-1_a-1_y-1_s2_md_o20_d1_p')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'独播')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32384316-2ec1-49a0-83fa-55f563097dd0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=穿越",
+      "targets": [
+        ["linkText=穿越", "linkText"],
+        ["css=li:nth-child(23) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'穿越')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[3]/ul/li[23]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c2_t31368_a-1_y-1_s2_md_o20_d1_p')]", "xpath:href"],
+        ["xpath=//li[23]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'穿越')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a10e723b-06af-49a3-8ba4-e50c63654fbc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2013",
+      "targets": [
+        ["linkText=2013", "linkText"],
+        ["css=.prop:nth-child(5) li:nth-child(14) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2013')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[2]/div/div/div[5]/ul/li[14]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/listn/c2_t31368_a-1_y2013_s2_md_o20_d1_p')]", "xpath:href"],
+        ["xpath=//div[5]/ul/li[14]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2013')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a511547-8873-4d12-b63d-a4aaba0a2f6e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.imagePart > img",
+      "targets": [
+        ["css=.imagePart > img", "css:finder"],
+        ["xpath=//img[@alt='唐朝好男人']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62581c02-a20e-4ad9-a119-ac3625c47d3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.imagePart > img",
+      "targets": [
+        ["css=.imagePart > img", "css:finder"],
+        ["xpath=//img[@alt='唐朝好男人']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9151",
+      "windowTimeout": 2000
+    }, {
+      "id": "281a7d13-aa8a-49a4-aa38-b013271cdb2e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.imagePart > img",
+      "targets": [
+        ["css=.imagePart > img", "css:finder"],
+        ["xpath=//img[@alt='唐朝好男人']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac77cc2d-aef5-473f-b3ff-22dc0d257d5f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9151}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3df70cb3-a428-4e9e-b19b-9495854c5b88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=花絮",
+      "targets": [
+        ["linkText=花絮", "linkText"],
+        ["css=.tab_lists > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'花絮')]", "xpath:link"],
+        ["xpath=//div[@id='top']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[14]", "xpath:href"],
+        ["xpath=//body/div[3]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'花絮')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28ae4bc1-2e07-4b65-9964-4527e6b09f43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=分集剧情",
+      "targets": [
+        ["linkText=分集剧情", "linkText"],
+        ["css=.tab_lists > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'分集剧情')]", "xpath:link"],
+        ["xpath=//div[@id='top']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[15]", "xpath:href"],
+        ["xpath=//body/div[3]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'分集剧情')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a20096c1-f446-4657-a814-47203a0aa240",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=乐迷畅谈",
+      "targets": [
+        ["linkText=乐迷畅谈", "linkText"],
+        ["css=.tab_lists > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'乐迷畅谈')]", "xpath:link"],
+        ["xpath=//div[@id='top']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[16]", "xpath:href"],
+        ["xpath=//body/div[3]/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'乐迷畅谈')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db0502e2-1203-45b5-82a6-b49a75042305",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=h2 > em",
+      "targets": [
+        ["css=h2 > em", "css:finder"],
+        ["xpath=//div[@id='top']/div[2]/div/div/div/h2/em", "xpath:idRelative"],
+        ["xpath=//h2/em", "xpath:position"],
+        ["xpath=//em[contains(.,'热门推荐')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04f728ee-ad99-4770-8290-918f3f347260",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["77cac558-1433-47c3-9121-e4d2a169da72"]
+  }],
+  "urls": ["https://www.le.com/"],
+  "plugins": []
+}

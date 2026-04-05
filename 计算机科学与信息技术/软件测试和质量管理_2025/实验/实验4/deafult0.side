@@ -1,0 +1,290 @@
+{
+  "id": "5a264f9a-b578-43e8-b9da-45e7eaac7be4",
+  "version": "2.0",
+  "name": "deafult0",
+  "url": "http://localhost:8080/Mtours",
+  "tests": [{
+    "id": "595b2632-0c08-461d-8a3a-b09b73f2dc25",
+    "name": "default0",
+    "commands": [{
+      "id": "7f99a846-e89d-4c36-8106-61f1146bfec6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/mtours/servlet/WelcomeServlet",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8abfe8e8-9d40-49fb-8fab-f7cae03c6934",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "200375c2-f1d6-4750-bc10-7856ac0b7dab",
+      "comment": "",
+      "command": "click",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91f4f4e5-373b-42ec-a224-9841db460362",
+      "comment": "",
+      "command": "type",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "6d111922-9bd0-4f3e-87e9-df399dce3168",
+      "comment": "",
+      "command": "assertValue",
+      "target": "name=userName",
+      "targets": [],
+      "value": "123"
+    }, {
+      "id": "7f7351f3-31f8-42f6-baa8-b47605ce0332",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e14d9940-f053-40ac-8b2e-f7080eda9fac",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "9068ecad-51eb-475e-98bc-242d5bcdb579",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=div > input", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbee0dfa-57d2-43ba-8fed-37416583d098",
+      "comment": "",
+      "command": "click",
+      "target": "css=font:nth-child(1) > input:nth-child(2)",
+      "targets": [
+        ["css=font:nth-child(1) > input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='tripType'])[2]", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97f0b47e-dcb7-4867-a3fe-bc980eba1656",
+      "comment": "",
+      "command": "click",
+      "target": "name=tripType",
+      "targets": [
+        ["name=tripType", "name"],
+        ["css=b input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='tripType']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5757e5c-e244-460a-aba7-f08a446631fd",
+      "comment": "",
+      "command": "assertValue",
+      "target": "name=tripType",
+      "targets": [],
+      "value": "roundtrip"
+    }, {
+      "id": "3e33b597-03c5-4e48-a9b6-ac755b18dba3",
+      "comment": "",
+      "command": "click",
+      "target": "name=findFlights",
+      "targets": [
+        ["name=findFlights", "name"],
+        ["css=td > input", "css:finder"],
+        ["xpath=//input[@name='findFlights']", "xpath:attributes"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe9c392f-fab3-4492-9748-44119f497931",
+      "comment": "",
+      "command": "click",
+      "target": "name=reserveFlights",
+      "targets": [
+        ["name=reserveFlights", "name"],
+        ["css=p > input", "css:finder"],
+        ["xpath=//input[@name='reserveFlights']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9324be54-6c1b-496c-b6e2-2b504365c796",
+      "comment": "",
+      "command": "click",
+      "target": "name=passFirst0",
+      "targets": [
+        ["name=passFirst0", "name"],
+        ["css=tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='passFirst0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "288d2358-9d34-4d76-ae7f-abee0b39acaa",
+      "comment": "",
+      "command": "type",
+      "target": "name=passFirst0",
+      "targets": [
+        ["name=passFirst0", "name"],
+        ["css=tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='passFirst0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "456"
+    }, {
+      "id": "4d7c5c08-1694-42f4-8403-1dd3d7f4ae6b",
+      "comment": "",
+      "command": "click",
+      "target": "name=passLast0",
+      "targets": [
+        ["name=passLast0", "name"],
+        ["css=tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='passLast0']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9e46986-d3cd-4183-ab9c-0a3fb140a251",
+      "comment": "",
+      "command": "type",
+      "target": "name=passLast0",
+      "targets": [
+        ["name=passLast0", "name"],
+        ["css=tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='passLast0']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "789"
+    }, {
+      "id": "6d3e4ddf-e24e-446c-b5fa-2fa4f3d5290d",
+      "comment": "",
+      "command": "click",
+      "target": "name=creditnumber",
+      "targets": [
+        ["name=creditnumber", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='creditnumber']", "xpath:attributes"],
+        ["xpath=//tr[6]/td/table/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77c1ce0-18a5-4604-bbe9-4f019f31a660",
+      "comment": "",
+      "command": "type",
+      "target": "name=creditnumber",
+      "targets": [
+        ["name=creditnumber", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='creditnumber']", "xpath:attributes"],
+        ["xpath=//tr[6]/td/table/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "25fbc3f8-a09d-4c47-a59d-a3de561c7320",
+      "comment": "",
+      "command": "click",
+      "target": "name=delCountry",
+      "targets": [
+        ["name=delCountry", "name"],
+        ["css=td:nth-child(2) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='delCountry']", "xpath:attributes"],
+        ["xpath=//tr[19]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ac0fcf1-3c2e-4ad2-809e-19f78f3fecd5",
+      "comment": "",
+      "command": "select",
+      "target": "name=delCountry",
+      "targets": [],
+      "value": "label=TOGO"
+    }, {
+      "id": "8d93434c-c1ec-40eb-b7ad-2178c2e1b69a",
+      "comment": "",
+      "command": "assertSelectedLabel",
+      "target": "name=delCountry",
+      "targets": [],
+      "value": "TOGO"
+    }, {
+      "id": "1e9ad61e-f244-49da-9fd3-43bdbfb99f64",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51263198-4165-4947-a529-07896220d733",
+      "comment": "",
+      "command": "click",
+      "target": "name=buyFlights",
+      "targets": [
+        ["name=buyFlights", "name"],
+        ["css=tr:nth-child(24) input", "css:finder"],
+        ["xpath=//input[@name='buyFlights']", "xpath:attributes"],
+        ["xpath=//tr[23]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deb6d1fb-9b35-455c-a421-2a2cc87d0a49",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) td:nth-child(2) img",
+      "targets": [
+        ["css=tr:nth-child(7) td:nth-child(2) img", "css:finder"],
+        ["xpath=//tr[7]/td/table/tbody/tr/td[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "790a0f42-ab1b-437e-b907-7721681b9108",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12e2200a-b007-4e17-ab2a-eefedbbe45d0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["595b2632-0c08-461d-8a3a-b09b73f2dc25"]
+  }],
+  "urls": ["http://localhost:8080/Mtours"],
+  "plugins": []
+}
